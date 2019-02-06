@@ -2,9 +2,9 @@
 #include "Searches.h"
 #include <stdexcept>
 
+//------------------------------------------------------------------------------
 /// Returns the index of the element being searched for is presewnt.
 /// Otherwise, returns -1
-// 0 1 2 3 4 5 6 7 8 9
 int BinarySearch(int * array, size_t startIndex, size_t endIndex, int key)
 {
 	// Check if we have reached the end of our search
